@@ -21,14 +21,11 @@ import { routes } from './main';
 <script lang="ts">
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&family=Yrsa&display=swap');
+
 * {
 	padding: 0;
 	box-sizing: border-box;
-}
-
-body {
-	overflow: hidden;
-	height: 100%;
 }
 
 a {
@@ -46,25 +43,14 @@ header {
 	flex-direction: column;
 }
 
-span {
-	position: absolute;
-	pointer-events: none;
-	background: #fff;
-	animation: animate 5s linear;
-	z-index: 1;
-}
-
 .corps {
 	display: flex;
 	flex-direction: column;
 	position: sticky;
 	text-align: center;
-	min-width: 70%;
-	max-width: 70%;
 	margin: auto;
 	background-color: white;
-	z-index: 2;
-	min-height: 100%;
+	max-height: 90%;
 }
 
 .titre {
@@ -75,11 +61,6 @@ span {
 	color: #333;
 	padding-bottom: 30px;
 	font-size: 4em;
-}
-
-body {
-	margin-top: 0px;
-	background-color: #212121;
 }
 
 li {
@@ -104,62 +85,5 @@ ul {
 	font-family: 'Source Sans Pro', sans-serif;
 	background-color: #333;
 	color: white;
-}
-
-.bouton {
-	transition: color .0s;
-}
-
-input {
-	border-radius: 5px;
-}
-
-.inputbutton {
-	color: white;
-	background-color: #000000;
-	/* border:none; */
-	border-radius: 5px;
-	text-align: center;
-	padding-left: 3px;
-	padding-right: 3px;
-}
-
-.inputbutton:hover {
-	background-color: #494949;
-	font-weight: bold;
-}
-
-#bouton {
-	font-family: 'Source Sans Pro', sans-serif;
-	height: 24px;
-	width: 200px;
-	background-color: #000000;
-	border: none;
-	border-radius: 5px;
-	text-align: center;
-	margin: auto;
-}
-
-#bouton:hover {
-	background-color: #494949;
-	font-weight: bold;
-}
-
-.imagets {
-	float: right;
-	padding: 1.3em;
-}
-
-.paddingdiv {
-	padding: 10%;
-}
-
-.imagegifts {
-	padding-left: 184px;
-	padding-right: 184px;
-}
-
-.imageM {
-	display: none;
 }
 </style>

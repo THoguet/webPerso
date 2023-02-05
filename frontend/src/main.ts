@@ -2,10 +2,10 @@ import { createApp } from 'vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import './style.css'
 import App from './App.vue'
-import Home from './components/Home.vue'
+import Accueil from './components/Accueil.vue'
 
 export const routes = [
-	{ path: '/', component: Home, title: "Home" },
+	{ path: '/', component: Accueil, title: "Accueil" },
 	// { path: '/about', component: About },
 ]
 
