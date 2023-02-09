@@ -1,4 +1,4 @@
-package fr.nessar.backend;
+package fr.nessar.backend.u;
 
 public class UWebAPI {
 	public static final String DOMAIN = "https://celcat.u-bordeaux.fr/Calendar/Home/";
